@@ -19,10 +19,6 @@ export const metadata: Metadata = {
   },
 };
 
-export default function SharePage() {
-  return (
-    <div style={{ display: "none" }}>
-      This page is only for the task
-    </div>
-  );
+export default function ShareLayout({ children }: { children: React.ReactNode }) {
+  return <>{children}</>;
 }
