@@ -21,6 +21,11 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function ShareLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
-}
+export default function SharePage() {
+    return (
+      <div>
+        <h1>Shared Task Page</h1>
+        <p>This page is only for the task.</p>
+      </div>
+    );
+  }
