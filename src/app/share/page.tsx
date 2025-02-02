@@ -3,10 +3,10 @@ import { Metadata } from "next";
 export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Shared Task",
-    description: "This is a shared page for the purpose of the task.",
+    description: "AI is reshaping social media management. We're building solutions at startup speed with enterprise quality. Want to influence what we build next?",
     openGraph: {
       title: "Shared Page",
-      description: "This is a shared page for the purpose of the task.",
+      description: "AI is reshaping social media management. We're building solutions at startup speed with enterprise quality. Want to influence what we build next?",
       url: "https://shared-task.vercel.app/share",
       images: [
         {
